@@ -11,7 +11,7 @@
     <div class="container">
       <h1>Applicants</h1>
       <ul id="applications" class="list-unstyled">
-        <li>Applicants should go here.</li>
+        <li ng-repeat="applicant in applicants">{{applicant.name}}</li>
       </ul>
     </div>
 	  
